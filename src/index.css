@@ -9,11 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*background-image: url('/public/images/Aurora_Borealis.gif');*/
-  background-color: #000;
-  background-position: center;
+  background-image: url('/public/images/Aurora_Borealis.gif');
   background-size: cover;
-  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 body::before {
@@ -37,16 +37,4 @@ html {
   scroll-behavior: smooth;
 }
 
-underline {
-  position: relative;
-}
-
-underline::before {
-  contact: '';
-  position: absolute;
-
-}
-
-logo {
-  background-image: url('/public/images/USIP_IV_Logo.png');
-}
+/* -------------------------- Background ----------------------------- */

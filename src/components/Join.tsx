@@ -4,17 +4,16 @@ const Join: React.FC = () => {
   return (
     <section
       id="join"
-      className="min-h-screen flex items-start items-center text-white p-4"
+      className="min-h-screen flex flex-col items-center justify-center text-white p-4 bg-black bg-opacity-20"
     >
-      <div className="flex flex-col ml-4 mr-5">
-        <h2 className="text-3xl underline mb-3">Join</h2>{" "}
-        <p className="text-xl">This is the Join section content.</p>{" "}
+      <div className="flex flex-col items-center text-center">
+        <h2 className="text-3xl underline mb-3">Join Here</h2>
+        <img
+          src="/images/USIP_QR_CODE.png"
+          alt="USIP QR Code"
+          className="max-w-md h-auto"
+        />
       </div>
-      <img
-        src="/images/USIP_QR_CODE.png"
-        alt="USIP Team"
-        className="max-w-xl h-auto mb-5"
-      />
     </section>
   );
 };
