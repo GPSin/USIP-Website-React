@@ -11,7 +11,7 @@ const Organization: React.FC = () => {
         <p className="text-xl">This is the Organization section content.</p>{" "}
       </div>
       <img
-        src="/images/ASI_Image.png"
+        src="/images/Manager2024.JPG"
         alt="USIP Team"
         className="max-w-2xl h-auto mb-5"
       />

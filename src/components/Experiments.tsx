@@ -36,27 +36,32 @@ const Experiments: React.FC = () => {
         {[
           {
             src: "/images/ASI_Image.png",
-            alt: "Experiment 1",
+            alt: "All-Sky Imager (ASI)",
             message: "Details about Experiment 1.",
           },
           {
-            src: "/images/pic01.jpg",
-            alt: "Experiment 2",
+            src: "/images/TEC_Team.png",
+            alt: "Total Electron Count (TEC)",
             message: "Details about Experiment 2.",
           },
           {
             src: "/images/pic01.jpg",
-            alt: "Experiment 3",
+            alt: "Guided Fall",
             message: "Details about Experiment 3.",
           },
           {
-            src: "/images/pic01.jpg",
-            alt: "Experiment 4",
+            src: "/images/Microplastics_Team.png",
+            alt: "Microplastics",
             message: "Details about Experiment 4.",
           },
           {
-            src: "/images/pic01.jpg",
-            alt: "Experiment 5",
+            src: "/images/Conductivity_Team.png",
+            alt: "Conductivity",
+            message: "Details about Experiment 5.",
+          },
+          {
+            src: "/images/VLF_Team.png",
+            alt: "Very Low Frequencies (VLF)",
             message: "Details about Experiment 5.",
           },
         ].map((experiment, index) => (
