@@ -2,7 +2,7 @@ import React from "react";
 
 const Home: React.FC = () => {
   return (
-    <div className="h-screen flex flex-col items-center justify-center text-white text-center relative bg-black bg-opacity-20">
+    <div className="h-screen flex flex-col items-center justify-center text-white text-center relative bg-black bg-opacity-40">
       <div className="absolute top-4 left-4 flex items-center">
         <img
           src="/images/USIP_IV_Logo.png"
