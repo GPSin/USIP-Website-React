@@ -8,23 +8,55 @@ const Contact: React.FC = () => {
     >
       <img
         src="/images/Manager2024.jpg"
-        alt=""
+        alt="Manager"
         className="max-w-lg h-auto mb-4 mr-5"
       />
       <div className="flex flex-col">
-        <h2 className="text-3xl underline mb-3">Contact</h2>{" "}
-        <p className="text-xl">
-          <b>(Prof.)</b> Edgar Bering: <i>eabering@uh.edu</i>
-          <br />
-          <b>(Prof.)</b> Andrew Renshaw: <i>eabering@uh.edu</i>
-          <br />
-          <b>(Director)</b> Ryan Jochims: <i>rcjochim@cougarnet.uh.edu</i>
-          <br />
+        <h2 className="text-3xl underline mb-3">Contact</h2>
+
+        <p className="text-xl mb-4">
+          <b>(Prof.)</b> Edgar Bering:{" "}
+          <a href="mailto:eabering@uh.edu" className="underline text-blue-500">
+            <i>eabering@uh.edu</i>
+          </a>
+        </p>
+
+        <p className="text-xl mb-4">
+          <b>(Prof.)</b> Andrew Renshaw:{" "}
+          <a href="mailto:eabering@uh.edu" className="underline text-blue-500">
+            <i>eabering@uh.edu</i>
+          </a>
+        </p>
+
+        <p className="text-xl mb-4">
+          <b>(Director)</b> Ryan Jochims:{" "}
+          <a
+            href="mailto:rcjochim@cougarnet.uh.edu"
+            className="underline text-blue-500"
+          >
+            <i>rcjochim@cougarnet.uh.edu</i>
+          </a>
+        </p>
+
+        <p className="text-xl mb-4">
+          <b>(System Lead)</b> Mike Bastidas:{" "}
+          <a
+            href="mailto:mjbastid@cougarnet.uh.edu"
+            className="underline text-blue-500"
+          >
+            <i>mjbastid@cougarnet.uh.edu</i>
+          </a>
+        </p>
+
+        <p className="text-xl mb-4">
           <b>(Science Lead)</b> Cessabella Astraquillo:{" "}
-          <i>castraqu@cougarnet.uh.edu</i>
-          <br />
-          <b>(System Lead)</b> Mike Bastidas: <i>mjbastid@cougarnet.uh.edu</i>
-        </p>{" "}
+          <a
+            href="mailto:castraqu@cougarnet.uh.edu"
+            className="underline text-blue-500"
+          >
+            <i>castraqu@cougarnet.uh.edu</i>
+          </a>
+        </p>
       </div>
     </section>
   );

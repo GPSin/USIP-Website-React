@@ -13,7 +13,7 @@ const Organization: React.FC = () => {
         </div>
 
         <img
-          src="/images/Manager2024.JPG"
+          src="/images/Supreme_Lord_Bucee.jpg"
           alt="USIP Team"
           className="max-w-lg h-auto mb-5 sm:ml-auto mr-3"
         />

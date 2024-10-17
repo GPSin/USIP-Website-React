@@ -23,9 +23,6 @@ const Experiments: React.FC = () => {
     <section id="experiments" className="min-h-screen text-white p-4 my-4">
       <div className="flex flex-col items-center mb-8">
         <h2 className="text-3xl underline mb-3">Experiments</h2>
-        <p className="text-xl text-center">
-          This is the Experiments section content.
-        </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
