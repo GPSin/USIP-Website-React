@@ -4,7 +4,7 @@ const Donors: React.FC = () => {
   return (
     <section
       id="donors"
-      className="min-h-screen flex flex-col items-center justify-start text-white p-4 bg-black bg-opacity-40"
+      className="min-h-screen flex flex-col items-center justify-start text-white p-4"
     >
       <h2 className="text-3xl underline mb-5">Donors</h2>
 

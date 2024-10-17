@@ -20,10 +20,7 @@ const Experiments: React.FC = () => {
   };
 
   return (
-    <section
-      id="experiments"
-      className="min-h-screen text-white p-4 bg-black bg-opacity-40"
-    >
+    <section id="experiments" className="min-h-screen text-white p-4 my-4">
       <div className="flex flex-col items-center mb-8">
         <h2 className="text-3xl underline mb-3">Experiments</h2>
         <p className="text-xl text-center">

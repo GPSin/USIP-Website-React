@@ -4,7 +4,7 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-start text-white p-4 bg-black bg-opacity-40"
+      className="min-h-screen flex items-start text-white p-4"
     >
       <img
         src="/images/Manager2024.jpg"

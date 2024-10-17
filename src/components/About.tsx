@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-start text-white p-4 bg-black bg-opacity-40"
+      className="min-h-screen flex items-start text-white p-4"
     >
       <img
         src="/images/USIP_Team.jpg"
