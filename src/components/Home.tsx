@@ -39,7 +39,7 @@ const Home: React.FC = () => {
         </h1>
       </div>
       <nav className="top-4 right-4 absolute">
-        <ul className="flex space-x-2 text-xl">
+        <ul className="flex space-x-4 text-xl">
           <li className="nav-item">
             <button onClick={() => handleScroll("about")}>
               {isAlternate ? "PARTY TIME" : "About"}
