@@ -6,11 +6,16 @@ const Contact: React.FC = () => {
       id="contact"
       className="min-h-screen flex items-start text-white p-4"
     >
-      <img
-        src="/images/Manager2024.jpg"
-        alt="Manager"
-        className="max-w-lg h-auto mb-4 mr-5"
-      />
+      <figure className="text-center">
+        <img
+          src="/images/Manager2024.JPG"
+          alt="Manager"
+          className="max-w-lg h-auto mb-2 mr-5"
+        />
+        <figure className="text-sm text-white text-opacity-70">
+          <i>Gakona, AK: PARs Aug. 2024 </i>
+        </figure>
+      </figure>
       <div className="flex flex-col">
         <h2 className="text-3xl underline mb-3">Contact</h2>
 
