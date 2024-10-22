@@ -18,7 +18,7 @@ const About: React.FC = () => {
       </figure>
       <div className="flex flex-col">
         <h2 className="text-3xl underline mb-3">About</h2>{" "}
-        <p className="text-xl">
+        <p className="text-lg ">
           This course is an outcome of the 2015 NASA Science Mission Directorate
           (SMD) Undergraduate Student Instrument Project (USIP) Student Flight
           Research Opportunity competition that encouraged U.S. universities to
