@@ -42,31 +42,30 @@ html {
 
 .nav-item {
   position: relative;
-  display: inline-block;
-  padding: 2px;
+  overflow: hidden;
 }
 
-.nav-item a {
+.nav-item button {
   position: relative;
-  text-decoration: none;
-  color: white;
-  font-size: 1.125rem;
+  z-index: 1;
 }
 
-.nav-item a::after {
+.nav-item::after {
   content: '';
   position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -3px;
+  bottom: 0;
   left: 0;
+  width: 0%;
+  height: 2px;
   background-color: white;
-  transition: width 0.3s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  z-index: 0;
 }
 
-.nav-item a:hover::after {
+.nav-item:hover::after {
   width: 100%;
 }
+
 
 .snap-container {
   scroll-snap-type: y mandatory;
@@ -78,3 +77,4 @@ html {
   scroll-snap-align: start;
   height: 100vh;
 }
+
