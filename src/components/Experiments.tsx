@@ -36,7 +36,6 @@ const Experiments: React.FC = () => {
             message: (
               <>
                 <h2 className="text-2xl">
-                  {" "}
                   <b>ASI</b>
                 </h2>
                 <p className="mt-2">
@@ -64,7 +63,6 @@ const Experiments: React.FC = () => {
             message: (
               <>
                 <h2 className="text-2xl">
-                  {" "}
                   <b>TEC</b>
                 </h2>
                 <p className="mt-2">
@@ -73,7 +71,7 @@ const Experiments: React.FC = () => {
                   influenced by solar activity and location. In this study,
                   using the Trimble NetR9 GNSS Reference Receiver near
                   Fairbanks, Alaska, we aim to determine how TEC fluctuates,
-                  particularly during periods of high solar activity
+                  particularly during periods of high solar activity.
                 </p>
               </>
             ),
@@ -85,7 +83,6 @@ const Experiments: React.FC = () => {
             message: (
               <>
                 <h2 className="text-2xl">
-                  {" "}
                   <b>Guided Fall</b>
                 </h2>
                 <p className="mt-2">
@@ -111,7 +108,6 @@ const Experiments: React.FC = () => {
             message: (
               <>
                 <h2 className="text-2xl">
-                  {" "}
                   <b>Microplastics</b>
                 </h2>
                 <p className="mt-2">
@@ -128,12 +124,12 @@ const Experiments: React.FC = () => {
                   Additionally, the diversity of microbial life in the
                   stratosphere at high latitudes remains underexplored, with
                   limited data on the deposition of microplastics in both rural
-                  and urban areas. We expect to measure microplastics of 10 μm
-                  and larger, determine their composition via Raman microscopy,
-                  and assess the concentration of microorganisms present in the
-                  stratosphere. Samples collected will be processed in a DNA
-                  extraction solution for sequencing to identify the organisms
-                  present.
+                  and urban areas. We expect to measure microplastics of 10
+                  $\mu$m and larger, determine their composition via Raman
+                  microscopy, and assess the concentration of microorganisms
+                  present in the stratosphere. Samples collected will be
+                  processed in a DNA extraction solution for sequencing to
+                  identify the organisms present.
                 </p>
               </>
             ),
@@ -145,7 +141,6 @@ const Experiments: React.FC = () => {
             message: (
               <>
                 <h2 className="text-2xl">
-                  {" "}
                   <b>Conductivity</b>
                 </h2>
                 <p className="mt-2">
@@ -159,12 +154,12 @@ const Experiments: React.FC = () => {
                   Conductivity data will be plotted and compared against
                   environmental conditions such as temperature, pressure, and
                   magnetic field strength. We expect to observe conductivity
-                  values ranging from 10<sup>-13</sup> to 10<sup>-10</sup> ohm⁻¹
-                  m⁻¹, with short-term variations similar to previous research
-                  findings, potentially showing up to 20 times the expected
-                  conductivity. Higher conductivity values are anticipated
-                  closer to the poles, indicating greater values in Fairbanks
-                  compared to locations like Texas.
+                  values ranging from 10<sup>-13</sup> to 10<sup>-10</sup> ohm
+                  <sup>-1</sup> m<sup>-1</sup>, with short-term variations
+                  similar to previous research findings, potentially showing up
+                  to 20 times the expected conductivity. Higher conductivity
+                  values are anticipated closer to the poles, indicating greater
+                  values in Fairbanks compared to locations like Texas.
                 </p>
               </>
             ),
@@ -176,7 +171,6 @@ const Experiments: React.FC = () => {
             message: (
               <>
                 <h2 className="text-2xl">
-                  {" "}
                   <b>VLF</b>
                 </h2>
                 <p className="mt-2">Very Low Frequencies (VLF)</p>
