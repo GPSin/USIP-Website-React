@@ -125,7 +125,7 @@ const Experiments: React.FC = () => {
                   stratosphere at high latitudes remains underexplored, with
                   limited data on the deposition of microplastics in both rural
                   and urban areas. We expect to measure microplastics of 10
-                  $\mu$m and larger, determine their composition via Raman
+                  &#181;m and larger, determine their composition via Raman
                   microscopy, and assess the concentration of microorganisms
                   present in the stratosphere. Samples collected will be
                   processed in a DNA extraction solution for sequencing to
